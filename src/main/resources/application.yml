@@ -1,0 +1,27 @@
+server:
+  port: 9152
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    password: password
+    username: sa
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+  application:
+    name: nisumCreateUser
+  h2:
+    console:
+      enabled: true
+
+jwt:
+  secret: test
+springfox:
+  documentation:
+    swagger-ui:
+      enabled: true
+
+swagger:
+  enabled: true
+
