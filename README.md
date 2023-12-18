@@ -1,6 +1,6 @@
 # Nisum-examen
 
-### Evaluación: JAVA api rest creado con Apache Camel 3.21.0
+### Evaluación: JAVA api rest creado con Spring Boot 2.5.4 y Apache Camel 3.21.0
 
 ### Script BD incluido: data.sql
 
